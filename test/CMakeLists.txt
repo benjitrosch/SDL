@@ -11,6 +11,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../cmake")
 include(CheckIncludeFile)
 include(CheckStructHasMember)
 include(CMakePushCheckState)
+include(CheckCCompilerFlag)
 include(sdlcompilers)
 
 find_package(Python3 COMPONENTS Interpreter)
